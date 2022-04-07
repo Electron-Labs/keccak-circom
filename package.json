@@ -7,7 +7,10 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha --max-old-space-size=4000"
+    "test": "mocha --max-old-space-size=4000",
+    "clean": "rm -rf node_modules && make clean && npm i",
+    "publish-npm": "npm publish --access public --ignore-scripts --@OWNER:registry='https://registry.npmjs.org'",
+    "publish-github": "npm publish --access public --ignore-scripts --@electron-labs:registry='https://npm.pkg.github.com'"
   },
   "author": "Vocdoni",
   "license": "GPL-3.0",
