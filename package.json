@@ -12,12 +12,10 @@
     "publish-npm": "npm publish --access public --ignore-scripts --@OWNER:registry='https://registry.npmjs.org'",
     "publish-github": "npm publish --access public --ignore-scripts --@electron-labs:registry='https://npm.pkg.github.com'"
   },
-  "author": "Vocdoni",
+  "author": "Vocdoni, rahulghangas",
   "license": "GPL-3.0",
-  "dependencies": {
-    "circomlib": "^2.0.1"
-  },
   "devDependencies": {
+    "circomlib": "^2.0.1",
     "chai": "^4.3.4",
     "circom_tester": "0.0.9",
     "mocha": "^9.1.2",
