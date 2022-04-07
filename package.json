@@ -1,6 +1,6 @@
 {
   "name": "@electron-labs/keccak-circom",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Keccak256 hash ethereum compatible implementation in Circom",
   "main": "index.js",
   "directories": {
