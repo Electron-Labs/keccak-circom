@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Electron-Labs/keccak-circom.git"
+    "url": "git+https://github.com/Electron-Labs/keccak256-circom.git"
   },
   "author": "Vocdoni, rahulghangas",
   "license": "GPL-3.0",
